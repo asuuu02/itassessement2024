@@ -1,0 +1,293 @@
+<html>
+    <head>
+        <title>HOME PAGE</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+            
+            .underline1, .underline2 {
+                width: 100px;
+                height: 4px;
+                background-color: #aaa;
+                margin: 0 auto 10px;
+                border-radius: 2px;
+            }
+
+            .underline2 {
+                width: 80px;
+                height: 3px;
+                background-color: #2d0f04;
+            }
+
+            .top-bar{
+                background-color: #f0e0c8;
+                padding: 14px 100px;
+                text-align: left;
+            }
+            .top-bar p {
+                font-size: 10px;
+                font-weight: normal;
+                margin: 0;
+                font-family: 'Inter', sans-serif;
+            }
+            .second-bar {
+                background-color: #fff7ec;
+                padding: 20px 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+            .logo img {
+                height: 70px;
+                width: auto;
+            }
+            .nav-container{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+            }
+            
+            .nav-bar{
+                display: flex;
+                gap: 30px;
+            }
+            .nav-bar a {
+                text-decoration: none;
+                color: black;
+                font-size: 14px;
+                font-family: 'Inria Sans', sans-serif;
+            }
+            .order, .order-btn {
+                background-color: #2d0f04;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 25px;
+                font-family: 'Inria Sans', sans-serif;
+                font-size: 14px;
+                text-decoration: none;
+                cursor: pointer;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                transition: background 0.3s ease;
+            }
+            .order-btn:hover, .order:hover {
+                background-color: #4a1a0b;
+            }
+            .menu-section {
+    background-color: #f0e0c8;
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 28px;
+    font-family: 'Inria Sans', sans-serif;
+    color: #2d0f04;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.menu-card {
+    background-color: #fffaf5;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: scale(1.03);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.menu-card h3 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #2d0f04;
+}
+
+.menu-card .price {
+    color: #a0522d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.site-footer {
+    background-color: #2d0f04;
+    color: white;
+    padding: 40px 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-left h3 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #f8c08e;
+}
+
+.footer-social p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+.footer-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 10px;
+}
+        </style>
+    </head>
+    <body>
+    <div class="top-bar">
+        <p>ORDER ONLINE OR VISIT OUR SHOP</p>
+    </div>
+    <div class="second-bar">
+        <div class="logo">
+            <img src="bakery_icon.png" alt="Logo">
+        </div>
+        <div class="nav-container">
+            <div class="nav-bar">
+                <a href="index.html">HOME</a>
+                <a href="gallery.html">MENU</a>
+                <a href="about_us.html">ABOUT</a>
+                <a href="contact_us.html">CONTACT</a>
+            </div>
+            <a href="order.html" class="order">ORDER NOW</a>
+        </div>
+    </div>
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="underline1"></div>
+        <div class="underline2"></div>
+    
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="chocolate_cake.jpg" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p class="price">Rs.300</p>
+                <a href="order.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-card">
+                <img src="raspberry_tart.jpg" alt="Raspberry Tart">
+                <h3>Raspberry Tart</h3>
+                <p class="price">Rs.240</p>
+                <a href="order.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-card">
+                <img src="choclate_croissant.jpg" alt="Croissant">
+                <h3>Chocolate Croissant</h3>
+                <p class="price">Rs.260</p>
+                <a href="order.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-card">
+                <img src="blueberrycheesecake.jpg" alt="blueberry">
+                <h3>Blueberry Cheese Cake</h3>
+                <p class="price">Rs.390</p>
+                <a href="order.html" class="order-btn">Order Now</a>
+            </div>
+            <div class="menu-card">
+                <img src="redvelvet.jpg" alt="redvelvet">
+                <h3>Red Velvet Cake</h3>
+                <p class="price">Rs.320</p>
+                <a href="order.html" class="order-btn">Order Now</a>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+    
+
+
+
+
+   
+
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="bakery_icon.png" alt="Logo" class="footer-logo">
+                <h3>Bakery</h3>
+                <p>&copy; 2025 Bakery. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Menu</a>
+                <a href="about_us.html">About</a>
+                <a href="contact_us.html">Contact</a>
+                <a href="order.html">Order</a>
+            </div>
+            <div class="footer-social">
+                <p>Follow Us</p>
+                <div class="social-icons">
+                    <a href="facebook.com"><img src="fb.png" alt="Facebook"></a>
+                    <a href="instagram.com"><img src="insta.png" alt="Instagram"></a>
+                    <a href="twitter.com"><img src="twiter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>

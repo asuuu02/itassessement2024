@@ -1,0 +1,271 @@
+<html>
+    <head>
+        <title>HOME PAGE</title>
+        <style>
+            body {
+            margin: 0;
+            font-family: 'Inria Sans', sans-serif;
+            background-color: #fffaf5;
+        }
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+            .top-bar{
+                background-color: #f0e0c8;
+                padding: 14px 100px;
+                text-align: left;
+            }
+            .top-bar p {
+                font-size: 10px;
+                font-weight: normal;
+                margin: 0;
+                font-family: 'Inter', sans-serif;
+            }
+            .second-bar {
+                background-color: #fff7ec;
+                padding: 20px 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+            .logo img {
+                height: 70px;
+                width: auto;
+            }
+            .nav-container{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+            }
+            
+            .nav-bar{
+                display: flex;
+                gap: 30px;
+            }
+            .nav-bar a {
+                text-decoration: none;
+                color: black;
+                font-size: 14px;
+                font-family: 'Inria Sans', sans-serif;
+            }
+            .order, .order-btn {
+                background-color: #2d0f04;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 25px;
+                font-family: 'Inria Sans', sans-serif;
+                font-size: 14px;
+                text-decoration: none;
+                cursor: pointer;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                transition: background 0.3s ease;
+            }
+            .order-btn:hover, .order:hover {
+                background-color: #4a1a0b;
+            }
+            .about-hero {
+                padding: 60px 100px;
+                background-color: #fff7ec;
+                display: flex;
+                justify-content: center;
+            }
+
+
+        .about-hero h1 {
+            font-size: 48px;
+            background-color: rgba(0,0,0,0.5);
+            padding: 20px 40px;
+            border-radius: 15px;
+        }
+
+        
+        .about-section {
+            padding: 60px 100px;
+            text-align: center;
+        }
+
+        .about-section h2 {
+            font-size: 32px;
+            color: #2d0f04;
+        }
+
+        .about-section p {
+            font-size: 16px;
+            max-width: 800px;
+            margin: 20px auto;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        
+        .values-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            gap: 30px;
+        }
+
+        .value-card {
+            background: #fff7ec;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            flex: 1;
+        }
+
+        .value-card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .value-card h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .value-card p {
+            font-size: 14px;
+            color: #555;
+        }
+            .site-footer {
+                background-color: #2d0f04;
+                color: white;
+                padding: 40px 100px;
+                font-family: 'Inter', sans-serif;
+            }
+
+            .footer-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-wrap: wrap;
+            }
+
+            .footer-left h3 {
+                font-family: 'Inria Sans', sans-serif;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            .footer-left p {
+                font-size: 12px;
+                color: #ccc;
+            }
+
+            .footer-links {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .footer-links a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 14px;
+                transition: color 0.3s ease;
+            }
+
+            .footer-links a:hover {
+                color: #f8c08e;
+            }
+
+            .footer-social p {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+
+            .social-icons {
+                display: flex;
+                gap: 10px;
+            }
+
+            .social-icons img {
+                width: 24px;
+                height: 24px;
+                filter: brightness(0) invert(1);
+                transition: transform 0.3s ease;
+            }
+
+            .social-icons img:hover {
+                transform: scale(1.1);
+            }
+            .footer-logo {
+                height: 60px;
+                width: auto;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+        <body>
+            <div class="top-bar">
+                <p>ORDER ONLINE OR VISIT OUR SHOP</p>
+            </div>
+            <div class="second-bar">
+                <div class="logo">
+                    <img src="bakery_icon.png" alt="Logo">
+                </div>
+                <div class="nav-container">
+                    <div class="nav-bar">
+                        <a href="index.html">HOME</a>
+                        <a href="gallery.html">MENU</a>
+                        <a href="about_us.html">ABOUT</a>
+                        <a href="contact_us.html">CONTACT</a>
+                    </div>
+                    <a href="order.html" class="order">ORDER NOW</a>
+                </div>
+            </div>
+            
+            <div class="about-hero">
+                <img src="bakery_out.jpg" alt="About Us Banner" class="about-photo">
+            </div>
+
+        <section class="about-section">
+            <h2>Our Story</h2>
+            <p>Founded with love in 2021, our bakery brings together passion, tradition, and the finest locally-sourced ingredients. What started in a small kitchen has grown into a community favorite. We believe in creating delicious moments that bring people together—whether it’s our signature croissants, custom cakes, or warm bread fresh from the oven.</p>
+            <div class="values-grid">
+                <div class="value-card">
+                    <img src="person_2.jpg" alt="Organic">
+                    <h4>Natural Ingredients</h4>
+                    <p>We use only the best organic and locally-sourced products.</p>
+                </div>
+                <div class="value-card">
+                    <img src="person_3.jpg" alt="Heart">
+                    <h4>Baked with Love</h4>
+                    <p>Every item is handmade with care by our passionate bakers.</p>
+                </div>
+                <div class="value-card">
+                    <img src="person_1.jpg" alt="Fresh Daily">
+                    <h4>Always Fresh</h4>
+                    <p>Everything is baked fresh daily to guarantee top quality.</p>
+                </div>
+            </div>
+        </section>
+            <footer class="site-footer">
+                <div class="footer-container">
+                    <div class="footer-left">
+                        <img src="bakery_icon.png" alt="Logo" class="footer-logo">
+                        <h3>Bakery</h3>
+                        <p>&copy; 2025 Bakery. All rights reserved.</p>
+                    </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Menu</a>
+                    <a href="about_us.html">About</a>
+                    <a href="contact_us.html">Contact</a>
+                    <a href="order.html">Order</a>
+                </div>
+                <div class="footer-social">
+                    <p>Follow Us</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><img src="fb.png" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/"><img src="insta.png" alt="Instagram"></a>
+                        <a href="https://twitter.com/"><img src="twiter.png" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
